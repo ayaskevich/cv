@@ -1,0 +1,52 @@
+body {
+    font-family: 'Open Sans', sans-serif;    
+    font-size: 14px;
+    margin: 0px 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 4px;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+.contacts {
+    text-align: start;
+}
+
+.section-title {
+    font-weight: bold;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.date {
+    font-style: italic;
+    flex: 1;
+}
+
+.content-box {
+    flex: 3;
+}
+
+.subtitle {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.summary, .content {
+    text-align: justify;
+}
