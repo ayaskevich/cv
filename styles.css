@@ -10,7 +10,7 @@ body {
   body, page[size="A4"] {
     margin: 0;
     width: 100%;
-    max-width: 100%;
+    max-width: auto;
   }
 }
 
