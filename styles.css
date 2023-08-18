@@ -9,8 +9,8 @@ body {
 @media print {
   body, page[size="A4"] {
     margin: 0;
-    width: 100%;
-    max-width: auto;
+    width: auto;
+    max-width: 100%;
   }
 }
 
