@@ -1,6 +1,17 @@
 body {
     font-family: 'Open Sans', sans-serif;    
     font-size: 14px;
+    max-width: 700px;
+    width: 90%;
+    margin: 40px auto;
+}
+
+@media print {
+  body, page[size="A4"] {
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+  }
 }
 
 h1 {
